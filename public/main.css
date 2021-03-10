@@ -50,4 +50,5 @@ button{
 }
 .err{
     display: none;
+    font-size: 75px;
 }

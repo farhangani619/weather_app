@@ -7,6 +7,7 @@ const temp = document.querySelector('.temp');
 const err = document.querySelector('.err')
 weatherForm.addEventListener('submit', (e) => {
     e.preventDefault()
+    err.innerHTML="";
     const location = search.value
     fetch('/weather?address=' +
     location).then((response) => {
